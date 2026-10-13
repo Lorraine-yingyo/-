@@ -1,0 +1,1016 @@
+{
+  "title": "2024 年报 × 2025-04-30 行情",
+  "asOf": "2025-04-30",
+  "mode": "historical",
+  "description": "12 家固定 A 股研究样本。财务为 2024 年报，PE 与 60 日年化波动率对应 2025-04-30。源站历史记录包含后续回填修订，展示的是当前可得的历史数据，不代表当时已知信息集，不用于时点回测，也不是当前市场筛选。",
+  "retrievedAt": "2026-10-13T09:48:24.897856+00:00",
+  "financialPeriod": "2024-12-31",
+  "marketDate": "2025-04-30",
+  "universeType": "fixed-research-sample",
+  "isPointInTime": false,
+  "metricLabels": {
+    "revenueGrowth": "营业总收入同比",
+    "profitGrowth": "归母净利润同比",
+    "peTtm": "市盈率 PE（TTM）",
+    "roe": "加权 ROE",
+    "volatility": "60 日年化波动率"
+  },
+  "stocks": [
+    {
+      "code": "600519.SH",
+      "name": "贵州茅台",
+      "industry": "白酒Ⅱ",
+      "metrics": {
+        "revenueGrowth": 15.663979743,
+        "profitGrowth": 15.38,
+        "roe": 36.02,
+        "peTtm": 21.83271738,
+        "volatility": 19.515409687466377
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600519.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-03",
+          "sourceUpdatedAt": "2026-04-17",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600519.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-03",
+          "sourceUpdatedAt": "2026-04-17",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600519.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-03",
+          "sourceUpdatedAt": "2026-04-17",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/600519.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sh600519.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600519&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-600519.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "000858.SZ",
+      "name": "五粮液",
+      "industry": "白酒Ⅱ",
+      "metrics": {
+        "revenueGrowth": 7.0889449436,
+        "profitGrowth": 5.44,
+        "roe": 23.35,
+        "peTtm": 22.47818549,
+        "volatility": 20.07858806174258
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/000858.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-26",
+          "sourceUpdatedAt": "2026-04-30",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/000858.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-26",
+          "sourceUpdatedAt": "2026-04-30",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/000858.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-26",
+          "sourceUpdatedAt": "2026-04-30",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/000858.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sz000858.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.000858&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-000858.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "000333.SZ",
+      "name": "美的集团",
+      "industry": "白色家电",
+      "metrics": {
+        "revenueGrowth": 9.4657570182,
+        "profitGrowth": 14.29,
+        "roe": 21.29,
+        "peTtm": 13.44672268,
+        "volatility": 25.66295979793806
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/000333.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-29",
+          "sourceUpdatedAt": "2026-03-31",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/000333.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-29",
+          "sourceUpdatedAt": "2026-03-31",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/000333.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-29",
+          "sourceUpdatedAt": "2026-03-31",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/000333.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sz000333.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.000333&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-000333.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "000651.SZ",
+      "name": "格力电器",
+      "industry": "白色家电",
+      "metrics": {
+        "revenueGrowth": -7.3066965736,
+        "profitGrowth": 10.91,
+        "roe": 25.42,
+        "peTtm": 7.63754839,
+        "volatility": 15.141359439319887
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/000651.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-28",
+          "sourceUpdatedAt": "2026-04-29",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/000651.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-28",
+          "sourceUpdatedAt": "2026-04-29",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/000651.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-28",
+          "sourceUpdatedAt": "2026-04-29",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/000651.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sz000651.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.000651&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-000651.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "600036.SH",
+      "name": "招商银行",
+      "industry": "银行Ⅱ",
+      "metrics": {
+        "revenueGrowth": -0.4821259543,
+        "profitGrowth": 1.22,
+        "roe": 14.49,
+        "peTtm": 6.96108746,
+        "volatility": 17.97310274044505
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600036.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-26",
+          "sourceUpdatedAt": "2026-03-28",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600036.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-26",
+          "sourceUpdatedAt": "2026-03-28",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600036.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-26",
+          "sourceUpdatedAt": "2026-03-28",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/600036.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sh600036.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600036&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-600036.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "601318.SH",
+      "name": "中国平安",
+      "industry": "保险Ⅱ",
+      "metrics": {
+        "revenueGrowth": 12.5998452597,
+        "profitGrowth": 47.8,
+        "roe": 13.8,
+        "peTtm": 7.8984638,
+        "volatility": 15.854436319999168
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/601318.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-20",
+          "sourceUpdatedAt": "2026-03-27",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/601318.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-20",
+          "sourceUpdatedAt": "2026-03-27",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/601318.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-20",
+          "sourceUpdatedAt": "2026-03-27",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/601318.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sh601318.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.601318&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-601318.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "600900.SH",
+      "name": "长江电力",
+      "industry": "电力",
+      "metrics": {
+        "revenueGrowth": 8.1239411176,
+        "profitGrowth": 19.28,
+        "roe": 15.71,
+        "peTtm": 21.41318417,
+        "volatility": 9.903830989353429
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600900.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-30",
+          "sourceUpdatedAt": "2026-04-30",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600900.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-30",
+          "sourceUpdatedAt": "2026-04-30",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600900.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-30",
+          "sourceUpdatedAt": "2026-04-30",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/600900.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sh600900.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600900&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-600900.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "002594.SZ",
+      "name": "比亚迪",
+      "industry": "乘用车",
+      "metrics": {
+        "revenueGrowth": 29.0192006296,
+        "profitGrowth": 34.0,
+        "roe": 26.05,
+        "peTtm": 23.93066209,
+        "volatility": 48.956253340337355
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/002594.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-25",
+          "sourceUpdatedAt": "2026-03-28",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/002594.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-25",
+          "sourceUpdatedAt": "2026-03-28",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/002594.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-25",
+          "sourceUpdatedAt": "2026-03-28",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/002594.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sz002594.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002594&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-002594.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "300750.SZ",
+      "name": "宁德时代",
+      "industry": "电池",
+      "metrics": {
+        "revenueGrowth": -9.7038755237,
+        "profitGrowth": 15.01,
+        "roe": 24.13,
+        "peTtm": 18.80878941,
+        "volatility": 36.650490657588094
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/300750.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-15",
+          "sourceUpdatedAt": "2026-03-10",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/300750.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-15",
+          "sourceUpdatedAt": "2026-03-10",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/300750.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-15",
+          "sourceUpdatedAt": "2026-03-10",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/300750.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sz300750.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.300750&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-300750.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "600276.SH",
+      "name": "恒瑞医药",
+      "industry": "化学制药",
+      "metrics": {
+        "revenueGrowth": 22.6330820352,
+        "profitGrowth": 47.28,
+        "roe": 14.73,
+        "peTtm": 47.64448044,
+        "volatility": 30.197829224970146
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600276.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-31",
+          "sourceUpdatedAt": "2026-03-26",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600276.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-31",
+          "sourceUpdatedAt": "2026-03-26",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/600276.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-03-31",
+          "sourceUpdatedAt": "2026-03-26",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/600276.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sh600276.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600276&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-600276.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "601012.SH",
+      "name": "隆基绿能",
+      "industry": "光伏设备",
+      "metrics": {
+        "revenueGrowth": -36.2287596022,
+        "profitGrowth": -180.15,
+        "roe": -13.07,
+        "peTtm": -14.46071896,
+        "volatility": 36.371950915693986
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/601012.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-30",
+          "sourceUpdatedAt": "2026-04-29",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/601012.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-30",
+          "sourceUpdatedAt": "2026-04-29",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/601012.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-04-30",
+          "sourceUpdatedAt": "2026-04-29",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/601012.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sh601012.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.601012&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-601012.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    },
+    {
+      "code": "300033.SZ",
+      "name": "同花顺",
+      "industry": "软件开发",
+      "metrics": {
+        "revenueGrowth": 17.466020794,
+        "profitGrowth": 30.0,
+        "roe": 24.8,
+        "peTtm": 75.56463175,
+        "volatility": 45.743193792519335
+      },
+      "provenance": {
+        "revenueGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/300033.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-02-25",
+          "sourceUpdatedAt": "2026-03-10",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "YSTZ",
+          "note": "营业总收入同比；不是仅主营业务收入。当前可得修订版本。"
+        },
+        "profitGrowth": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/300033.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-02-25",
+          "sourceUpdatedAt": "2026-03-10",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "SJLTZ",
+          "note": "归属于母公司股东的净利润同比；不是扣非净利润同比。当前可得修订版本。"
+        },
+        "roe": {
+          "source": "东方财富 Choice · 年报业绩报表",
+          "url": "https://data.eastmoney.com/bbsj/300033.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2024-12-31",
+          "period": "2024 年年报",
+          "unit": "%",
+          "publishedAt": "2025-02-25",
+          "sourceUpdatedAt": "2026-03-10",
+          "rawFile": "data/raw/financials-2024.json",
+          "field": "WEIGHTAVG_ROE",
+          "note": "加权平均净资产收益率；不是扣非 ROE。当前可得修订版本。"
+        },
+        "peTtm": {
+          "source": "东方财富 Choice · 历史估值",
+          "url": "https://data.eastmoney.com/gzfx/detail/300033.html",
+          "apiUrl": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+          "asOf": "2025-04-30",
+          "period": "2025-04-30 历史交易日 / PE TTM",
+          "unit": "倍",
+          "field": "PE_TTM",
+          "rawFile": "data/raw/valuations-2025-04-30.json",
+          "note": "直接取数据源历史 PE_TTM，未用年报 EPS 自行替代；非正值不作低估值判断。历史序列可能被源站回填修订。"
+        },
+        "volatility": {
+          "source": "东方财富历史日 K · 本地计算",
+          "url": "https://quote.eastmoney.com/sz300033.html",
+          "apiUrl": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.300033&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+          "asOf": "2025-04-30",
+          "period": "2025-01-27 至 2025-04-30，60 个日收益率",
+          "unit": "%（年化）",
+          "rawFile": "data/raw/prices-300033.json",
+          "computation": {
+            "observations": 60,
+            "prices": 61,
+            "windowStart": "2025-01-27",
+            "windowEnd": "2025-04-30",
+            "adjustment": "后复权（fqt=2）",
+            "ddof": 1,
+            "annualizationDays": 252
+          },
+          "note": "后复权收盘价计算 ln(Pt/Pt-1)，60 个日对数收益率的样本标准差（ddof=1）×√252×100；反映历史波动，不预测未来。"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "provider": "东方财富公开数据接口",
+  "responses": [
+    {
+      "file": "data/raw/financials-2024.json",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_LICO_FN_CPD&columns=ALL&filter=%28REPORTDATE%3D%272024-12-31%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+      "retrievedAt": "2026-10-13T09:48:20.046356+00:00",
+      "sha256": "68fcf85629e66df5f6e997d286bf5c3b61355cca65fddfa44356f3b4978ba96c"
+    },
+    {
+      "file": "data/raw/valuations-2025-04-30.json",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=%28TRADE_DATE%3D%272025-04-30%27%29%28SECURITY_CODE+in+%28%22600519%22%2C%22000858%22%2C%22000333%22%2C%22000651%22%2C%22600036%22%2C%22601318%22%2C%22600900%22%2C%22002594%22%2C%22300750%22%2C%22600276%22%2C%22601012%22%2C%22300033%22%29%29&pageNumber=1&pageSize=50&source=WEB&client=WEB",
+      "retrievedAt": "2026-10-13T09:48:20.511591+00:00",
+      "sha256": "ed5b24a510ce553f21fd0c3822d548de73e14714078be4d0923c860d39160203"
+    },
+    {
+      "file": "data/raw/prices-600519.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600519&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:20.872662+00:00",
+      "sha256": "67e7f39517264a8224f970aa5f78f7a56d48efe2db688aade2da071871394c28"
+    },
+    {
+      "file": "data/raw/prices-000858.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.000858&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:21.243946+00:00",
+      "sha256": "b99e5e6b1f2f9426e9e9db34dc2cfe60d656fe108a53a8ccbb61e12ac78e7f27"
+    },
+    {
+      "file": "data/raw/prices-000333.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.000333&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:21.584930+00:00",
+      "sha256": "ddc813d45bd09468437071f202e0c61896b414c7acb88b67272baf6eacb5fde6"
+    },
+    {
+      "file": "data/raw/prices-000651.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.000651&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:21.920742+00:00",
+      "sha256": "0d1875c312ba70e310e6020a45af5f50104ed51896ebba7f36ac075124f571b0"
+    },
+    {
+      "file": "data/raw/prices-600036.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600036&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:22.281116+00:00",
+      "sha256": "ed0e9646cf981e1500b90f5193bf2f6343e4aa96ceff735b0dbf03c81d13d86a"
+    },
+    {
+      "file": "data/raw/prices-601318.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.601318&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:22.667518+00:00",
+      "sha256": "cf46ac99df6b049b0ff8df9c1240f69a838a2f81dec319639ec80f3cfa8488a4"
+    },
+    {
+      "file": "data/raw/prices-600900.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600900&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:23.001091+00:00",
+      "sha256": "2e1aaf984bc459c55f748e6999d3df8bf1d27a4529189105923d80784c30fe0a"
+    },
+    {
+      "file": "data/raw/prices-002594.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002594&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:23.346643+00:00",
+      "sha256": "c43a648f59cb3aced6147ddd25e133ae9d71b733eab0588949ce82eac1b3fc23"
+    },
+    {
+      "file": "data/raw/prices-300750.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.300750&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:23.681944+00:00",
+      "sha256": "0be68d7791c69f90c73de759a9344a3390d0c340f342d6bac23ab5dd4e7215d2"
+    },
+    {
+      "file": "data/raw/prices-600276.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600276&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:24.027209+00:00",
+      "sha256": "5f47af0a072b5a8f7cb50e3a496a725069ea1b8a3e67e362aa2d81e5d5ffea5b"
+    },
+    {
+      "file": "data/raw/prices-601012.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.601012&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:24.376206+00:00",
+      "sha256": "cfd6e58673b4d8a4ea32e3fe3ae39ac7674616913f1c67440c16c886f37b9a9d"
+    },
+    {
+      "file": "data/raw/prices-300033.json",
+      "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.300033&klt=101&fqt=2&beg=20250101&end=20250430&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "retrievedAt": "2026-10-13T09:48:24.897856+00:00",
+      "sha256": "f56935f9b0fa1d86216d98810f04ae198e09578f517e5637b2488d4e0d3aaef5"
+    }
+  ]
+}

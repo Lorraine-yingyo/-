@@ -1,0 +1,23 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { spawn } from 'node:child_process';
+import { once } from 'node:events';
+import { resolve } from 'node:path';
+test('腾讯云运行包保留主链路、失败响应和静态文件边界', {timeout:15000}, async t => {
+  const env={...process.env,PORT:'0',HOST:'127.0.0.1'};
+  for (const key of ['AI_API_KEY','AI_BASE_URL','AI_MODEL','FUYAO_API_KEY']) delete env[key];
+  const child=spawn(process.execPath,[resolve('artifacts/tencent-package/server.mjs')],{env,stdio:['ignore','pipe','pipe']});
+  t.after(()=>{child.kill('SIGTERM');});
+  const [chunk]=await Promise.race([once(child.stdout,'data'),once(child,'exit').then(([code])=>{throw new Error(`Server exited: ${code}`);})]);
+  const origin=String(chunk).match(/http:\/\/127\.0\.0\.1:\d+/)?.[0];assert.ok(origin);
+  const status=await fetch(origin+'/api/status').then(r=>r.json());assert.equal(status.mode,'rules');
+  const post=(path,body)=>fetch(origin+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  const parsed=await post('/api/interpret',{text:'营收增长至少10%，利润增长至少10%，市盈率不超过30倍，年化波动不超过30%'}).then(r=>r.json());assert.equal(parsed.conditions.length,4);assert.equal(parsed.blocked,false);
+  assert.equal((await post('/api/data',{codes:['600519.SH'],report:'2024-4'})).status,503);
+  assert.equal((await post('/api/interpret',{text:'x'.repeat(9000)})).status,413);
+  assert.equal((await fetch(origin+'/api/interpret')).status,405);
+  assert.equal((await fetch(origin+'/.env')).status,404);
+  assert.equal((await fetch(origin+'/server.mjs')).status,404);
+  const page=await fetch(origin+'/').then(r=>r.text());assert.match(page,/条件实验室/);
+  const asset=page.match(/src="([^"]+\.js)"/)[1];const response=await fetch(origin+asset);assert.equal(response.status,200);assert.match(response.headers.get('content-type'),/javascript/);
+});

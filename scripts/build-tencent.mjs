@@ -1,0 +1,17 @@
+import { build } from 'vite';
+import react from '@vitejs/plugin-react';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { mkdir, cp, writeFile, rm } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const out=resolve(root,'artifacts/tencent-package');
+await rm(out,{recursive:true,force:true});await mkdir(out,{recursive:true});
+const alias={'@':root};
+await build({configFile:false,root:resolve(root,'deploy/tencent'),publicDir:resolve(root,'public'),resolve:{alias},plugins:[react()],build:{outDir:resolve(out,'web'),emptyOutDir:true,sourcemap:false}});
+await build({configFile:false,root,publicDir:false,resolve:{alias},build:{ssr:resolve(root,'deploy/tencent/server.ts'),outDir:out,emptyOutDir:false,sourcemap:false,rollupOptions:{external:['cloudflare:workers'],output:{entryFileNames:'server.mjs'}}}});
+await cp(resolve(root,'deploy/tencent/install.sh'),resolve(out,'install.sh'));
+await cp(resolve(root,'deploy/tencent/README.md'),resolve(out,'README.md'));
+await writeFile(resolve(out,'package.json'),JSON.stringify({name:'condition-lab',private:true,type:'module',engines:{node:'>=22.13.0'},scripts:{start:'node server.mjs'}},null,2));
+execFileSync('tar',['-czf',resolve(root,'artifacts/condition-lab-tencent.tar.gz'),'-C',out,'.']);
+console.log('Packaged: artifacts/condition-lab-tencent.tar.gz');
